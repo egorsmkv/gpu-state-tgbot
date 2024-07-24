@@ -1,5 +1,7 @@
 # `gpu-state-tgbot`
 
+<img src="./bot-demo.png" width="500">
+
 This little bot shows info about your GPUs. It uses `nvidia-smi` to get the info.
 
 ## Installation
