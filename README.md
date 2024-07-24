@@ -7,7 +7,7 @@ This little bot shows info about your GPUs. It uses `nvidia-smi` to get the info
 ## Installation
 
 ```shell
-go build -o tg-state-bot main.go
+go build -o /opt/gpu-state-tgbot main.go
 ```
 
 ## Example 
