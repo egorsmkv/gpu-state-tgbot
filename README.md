@@ -1,4 +1,4 @@
-`gpu-state-tgbot`
+# `gpu-state-tgbot`
 
 This little bot shows info about your GPUs. It uses `nvidia-smi` to get the info.
 
