@@ -1,0 +1,18 @@
+[Unit]
+Description=GPU state Telegram bot
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Restart=on-failure
+RestartSec=5s
+
+Environment="TOKEN=111"
+Environment="CHAT_ID=-111"
+ExecStart=/opt/gpu-state-tgbot
+
+[Install]
+WantedBy=multi-user.target
